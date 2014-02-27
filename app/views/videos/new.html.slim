@@ -1,0 +1,9 @@
+h1 Add a new video
+.new_video_form
+  = form_tag({action: :create}, multipart: true) do
+    .field
+      = text_field_tag :title
+    .field
+      = file_field_tag :video_file
+    .actions
+      = submit_tag 'Send Video'
