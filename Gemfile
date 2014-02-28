@@ -11,6 +11,7 @@ gem 'jbuilder', '~> 1.2'
 
 gem 'slim'
 gem 'vimeo'
+gem 'dotenv-rails', :groups => [:development, :test]
 
 group :doc do
   gem 'sdoc', require: false
